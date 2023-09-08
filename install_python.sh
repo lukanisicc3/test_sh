@@ -1,3 +1,4 @@
+#!/bin/sh
 opkg update
 opkg install python-mini -d ram
 export PATH=$PATH:/tmp/usr/bin/
