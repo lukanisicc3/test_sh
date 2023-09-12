@@ -16,5 +16,5 @@ if grep -xqFe "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/tmp/usr/lib/" /etc/shit;
     echo -e "Exists"
 else
     echo -e "Not Exists"
-    echo "echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/tmp/usr/lib/" >> /etc/shinit" >> /etc/shinit
+    echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/tmp/usr/lib/" >> /etc/shinit
 fi
