@@ -12,7 +12,7 @@ else
     echo "export PATH=$PATH:/tmp/usr/bin/" >> /etc/shinit
 fi
 
-if grep -xqFe "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/tmp/usr/lib/" >> /etc/shinit" /etc/shit; then
+if grep -xqFe "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/tmp/usr/lib/" /etc/shit; then
     echo -e "Exists"
 else
     echo -e "Not Exists"
